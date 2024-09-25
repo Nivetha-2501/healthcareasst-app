@@ -296,7 +296,6 @@ def main():
 
         if selected_symptom in symptom_details:
             details = symptom_details[selected_symptom]
-            st.image(details["image"])
             st.subheader("Description")
             st.write(details["description"])
             st.subheader("Reasons")
